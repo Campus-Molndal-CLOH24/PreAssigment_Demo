@@ -12,4 +12,9 @@ internal class Book
     public string Author { get; set; } = "";
 
     public int Year { get; set; } = 0;
+
+    public override string ToString()
+    {
+        return $"{Title} av {Author}, {Year}";
+    }
 }
