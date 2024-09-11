@@ -7,4 +7,8 @@ using System.Threading.Tasks;
 
 internal class Menu
 {
+    public void Run()
+    {
+        throw new System.NotImplementedException();
+    }
 }

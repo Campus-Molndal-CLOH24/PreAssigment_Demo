@@ -1,4 +1,6 @@
 ﻿namespace PreAssignmentInfo_Live.Utils;
+
+using PreAssignmentInfo_Live.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,4 +9,38 @@ using System.Threading.Tasks;
 
 internal class Library
 {
+    // Klassvariabler
+    List<Book> books;
+
+    // Constructor
+    public Library()
+    {
+        books = new List<Book>(books);
+    }
+
+    public void AddBook(string title, string author, int year)
+    {
+
+    }
+
+    public void ListBooks()
+    {
+
+    }
+
+    public void RemoveBook(string title)
+    {
+
+    }
+
+
+    public Book FindBook(string title)
+    {
+
+    }
+
+    private void SortBooksByTitle()
+    {
+
+    }
 }
