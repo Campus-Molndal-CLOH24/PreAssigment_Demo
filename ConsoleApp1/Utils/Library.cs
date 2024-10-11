@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+public record Client(string name, string Id);
+
 internal class Library
 {
     // Klassvariabler
@@ -36,7 +39,7 @@ internal class Library
 
     public Book FindBook(string title)
     {
-
+        return null;
     }
 
     private void SortBooksByTitle()
